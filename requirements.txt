@@ -1,3 +1,5 @@
 streamlit
 numpy
 tensorflow
+tensorflow.keras.models
+PIL
