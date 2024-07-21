@@ -146,8 +146,8 @@ def main():
         st.image(image, caption='Uploaded ECG Image', use_column_width=True)
 
         if st.button('Predict'):
-            prediction, confidence = make_prediction(image)
-            accuracy = 0.98  # Assuming your model accuracy is 99%
+            # prediction, confidence = make_prediction(image)
+            accuracy = 0.92  # Assuming your model accuracy is 99%
             st.success(f'Prediction: {prediction}, Confidence: {confidence:.2f}, Accuracy: {accuracy:.2%}')
 
 if __name__ == "__main__":
